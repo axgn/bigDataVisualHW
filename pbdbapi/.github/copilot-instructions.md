@@ -35,3 +35,4 @@
 - Do not retry `4xx` responses by default.
 - Preserve `ctx` cancellation behavior in request and backoff paths.
 - `WithTimeout` only applies when `httpClient` is `*http.Client`; avoid assuming custom clients honor timeout options.
+
